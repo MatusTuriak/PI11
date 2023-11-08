@@ -1,5 +1,0 @@
-a = int(input("zadaj cislo a:"))
-b = int(input("zadaj cislo b:"))
-print("hello world")
-print("sucin cislic je:", a * b)
-print("sucet je:", a + b)
