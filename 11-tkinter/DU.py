@@ -2,9 +2,9 @@ import tkinter
 
 canvas = tkinter.Canvas()
 canvas.pack()
-x = 2
-y = 2
-d = 10
+x = 20
+y = 30
+d = 5
 f = "black"
 canvas.create_rectangle(x, y, x+d, y+d ,fill = f)
 canvas.create_rectangle(x+d, y+d, x+2*d, y+2*d ,fill = f)
@@ -24,7 +24,6 @@ canvas.create_rectangle(x+4*d ,y+5*d ,x+5*d, y+d ,fill = f)
 canvas.create_rectangle(x+4*d ,y+6*d ,x+5*d, y+d ,fill = f)
 canvas.create_rectangle(x+4*d ,y+7*d ,x+5*d, y+d ,fill = f)
 #A
-# ,A
 canvas.create_rectangle(x+6*d ,y+2*d ,x+7*d ,y+d ,fill = f)
 canvas.create_rectangle(x+6*d ,y+3*d ,x+7*d ,y+d ,fill = f)
 canvas.create_rectangle(x+6*d ,y+4*d ,x+7*d ,y+d ,fill = f)
