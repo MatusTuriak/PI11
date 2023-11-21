@@ -34,11 +34,12 @@ stvrtina = d//4
 pocet = 598 // d  # //je celociselne delenie 7 // 3 = 2
 for j in range(498 // d):
     for i in range(pocet):
-        canvas.create_rectangle(x ,y+d//2 ,x+d ,y+d//2+d ,)
-        canvas.create_line(x+d//2 ,y ,x ,y+d//2)
-        canvas.create_line(x+d//2 ,y ,x+d ,y+d//2)
-        canvas.create_rectangle(x+stvrtina,y+3*stvrtina ,x+3*stvrtina, y + d + stvrtina)
-        canvas.create_line
+        farba = random.choice(("green", "purple", "red", "blue", "yellow"))
+        canvas.create_rectangle(x, y + d // 2, x + d, y + d + 2 * stvrtina, fill=farba)
+        canvas.create_rectangle(x + stvrtina, y + 3 * stvrtina, x + 3 * stvrtina, y + d + stvrtina, fill="white")
+        canvas.create_line(x + stvrtina, y + 3 * stvrtina, x + 3 * stvrtina, y + d + stvrtina)
+        canvas.create_line(x + 3 * stvrtina, y + 3 * stvrtina, x + stvrtina, y + d + stvrtina)
+        canvas.create_polygon(x, y + d // 2, x + d // 2, y, x + d, y + d // 2, fill=farba)
         x = x + d
     y = y + d + d // 2
     x = xx
