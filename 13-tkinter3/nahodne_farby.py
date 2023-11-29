@@ -26,3 +26,4 @@ for i in range(20):
     canvas.create_oval(x - polom , y - polom, x + polom ,y + polom, fill=farba)
 
 canvas.mainloop()
+x
