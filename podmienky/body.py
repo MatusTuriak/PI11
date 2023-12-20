@@ -2,16 +2,16 @@ max_bodov = 30
 pocet_bodov = int(input("zadaj pocet bodov: "))
 percenta = (pocet_bodov / max_bodov * 100)
 print(f"ziskal si {round(percenta, 2)}%")
-#if percenta >= 90:
+#if podmienky >= 90:
 #print("Výborný")
 #else:
-#if percenta >= 75:
+#if podmienky >= 75:
 #print("Chválitebný")
 #else:
-#if percenta >= 50:
+#if podmienky >= 50:
 #print("Dobrý")
 #else:
-#if percenta >= 30:
+#if podmienky >= 30:
 #print("dostatočný")
 #else:
 #print("nedostatočný")
