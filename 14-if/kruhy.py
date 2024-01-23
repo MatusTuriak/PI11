@@ -1,19 +1,19 @@
 import tkinter
 
-
-canvas = tkinter.Canvas(width=300, height=300)
+canvas = tkinter.Canvas()
 canvas.pack()
 
-x = 3
-y = 3
-xx = x
-d = 20
-for i in range(298 // d): #riadky
-    for j in range(298 // d): #stlpce
-        canvas.create_oval(x , y + d , x + d, y)
-        x = x + d
-    y = y + d + 2
-    x = xx
+d = 13
+for i in range(d):
+    for j in range(d):
+        x = j*20 + 100
+        y = i*20 + 12
+        if i == 6:
+            farba = 'red'
+        elif j == 6:
+            farba = "red"
+        else:
+            farba = 'white'
+        canvas.create_oval(x - 8, y - 8, x + 8, y + 8, fill=farba)
 
-
-canvas.mainloop()
+tkinter.mainloop()

@@ -22,3 +22,5 @@ for i in range(pocet):
     canvas.create_oval(x - polomer, y - polomer, x + polomer, y + polomer, fill=farba,)
 
 tkinter.mainloop()
+
+#hodnota = random.choice((1, 2, 5, 10, 20, 50))
