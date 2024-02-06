@@ -4,7 +4,7 @@
 from math import pi
 import random
 
-r = 10
+r = 20
 o = 2 * pi * r
 print(round(o, 2)) # round zaokruhli cislo na dany pocet miest
 
