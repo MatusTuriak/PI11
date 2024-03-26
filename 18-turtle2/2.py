@@ -18,6 +18,6 @@ def kvet(n, d):
         lupen(d)
         t.lt(360 / n)
 
-kvet(20, 10)
+kvet(20, 20)
 
 turtle.mainloop()
